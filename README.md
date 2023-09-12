@@ -1,3 +1,9 @@
+# Imsquared Non-prehensile Manipulation Dataset
+
+You can download the dataset here:
+
+https://huggingface.co/kimjaehyung/imsquared-non-prehensile
+
 # RLDS Dataset Conversion
 
 This repo demonstrates how to convert an existing dataset into RLDS format for X-embodiment experiment integration.
