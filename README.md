@@ -4,6 +4,14 @@ You can download the dataset here:
 
 https://huggingface.co/kimjaehyung/imsquared-non-prehensile
 
+The 20D action vectors you're seeing are due to our use of a Joint-space IK motion controller, as detailed in the Nvidia Factory paper (https://arxiv.org/pdf/2205.03532.pdf). 
+
+Our action space is expanded to include:
+
+6 residuals for end-effector positioning (x, y, z, roll, pitch, yaw),
+7 P gains, and
+7 D gains for joint control.
+
 # RLDS Dataset Conversion
 
 This repo demonstrates how to convert an existing dataset into RLDS format for X-embodiment experiment integration.
